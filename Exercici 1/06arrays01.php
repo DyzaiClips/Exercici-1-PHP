@@ -20,6 +20,10 @@
     echo "</pre>";
 
     var_dump( $fruits2);
+
+    foreach ($fruits as $value) {
+    echo "<li>la fruita és $fruit </li>";
+    }
 ?>
 
 </body>
