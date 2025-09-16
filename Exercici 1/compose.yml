@@ -2,6 +2,6 @@ services:
   php:
     image: php:8.3-apache-bullseye
     volumes:
-      -.:/var/www/html
+      - .:/var/www/html
     ports:
-      -8085:80
+      - 8085:80
