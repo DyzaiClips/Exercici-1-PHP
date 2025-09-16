@@ -27,6 +27,12 @@
 
     $existeix = in_array('Andorra' , $capitals)? "Andorra esta introduida" : "L'has d'introduir";
     echo "$existeix";
+
+    foreach ($capital as $pais => $capital) {
+        echo "La capital de $pais es $capital";
+    }
+
+
 ?>
 
 </body>
