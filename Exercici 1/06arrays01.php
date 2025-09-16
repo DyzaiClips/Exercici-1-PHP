@@ -13,7 +13,11 @@
 
     $fruits = ['apple', 'orange', 'melon'];
     $fruits2 = array('apple','Orange','melon');
-    $a = [['Hola'],['Adeu'], ['HELLOW']]
+    $a = [['Hola'],['Adeu'], ['HELLOW']];
+
+    echo "<pre>";
+    print_r( $fruits);
+    echo "</pre>";
 ?>
 
 </body>
