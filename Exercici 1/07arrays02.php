@@ -24,6 +24,8 @@
     echo "<pre>";
     print_r( $capitals );
     echo "</pre>";
+
+    $existeix = in_array('Andorra' , $capitals)? "Andorra esta introduida" : "L'has d'introduir"
 ?>
 
 </body>
