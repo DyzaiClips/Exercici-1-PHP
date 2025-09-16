@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>xxxxxxxxxxxxx</title>
+        <title>HOLA BON DIA</title>
         <style>
             .center {
                 display: block;
