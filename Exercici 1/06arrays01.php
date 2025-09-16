@@ -18,6 +18,8 @@
     echo "<pre>";
     print_r( $fruits);
     echo "</pre>";
+
+    var_dump( $fruits2);
 ?>
 
 </body>
