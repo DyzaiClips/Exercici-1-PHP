@@ -8,10 +8,10 @@
 <body>
     <h1>EL meu primer Formulari</h1>
 
-    <form action="" method="get">
+    <form action="" method="post">
         <p>
             <label for="">Escriu un Numero</label>
-            <input type="text" name="numero">
+            <input type="num" name="numero">
         </p>
         <input type="submit" value="Fes Clic per enviar">
 
@@ -19,10 +19,12 @@
 
     <?php
 
-    if ($_SERVER['REQUEST_METHOD']=='GET' && isset($_GET['numero'])) {
-        $numero = $_GET['numerp'];
-        echo"el numero que has enviat es el $numero";
-    }
+    if ($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['numero'])) {
+        $numero = $_POST['numerp'];
+        $numerosecret = 1;
+        $result = $numerosecret==$numero ? "Perfecte" : "Malament";
+        echo $result;
+    }   
 
     ?>
 </body>
