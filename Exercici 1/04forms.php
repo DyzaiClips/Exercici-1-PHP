@@ -22,7 +22,8 @@
     if ($_SERVER['REQUEST_METHOD']=='GET' && isset($_GET['numero'])) {
         $numero = $_GET['numerp'];
         echo"el numero que has enviat es el $numero";
-    }
+        
+    }   
 
     ?>
 </body>
